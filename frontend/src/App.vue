@@ -49,6 +49,12 @@ export default class App extends Vue {
   color: #2c3e50;
   position: relative;
   height: 100%;
+  background: linear-gradient(
+    90deg,
+    #020024 0%,
+    #090979 35%,
+    #00d4ff 100%
+  );
 
   .cube-btn {
     border-radius: 5px;
