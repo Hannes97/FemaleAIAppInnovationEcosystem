@@ -59,6 +59,7 @@ export default class Navbar extends Vue {
   position: absolute;
   left: 50%;
   transform: translatex(-50%);
+  opacity: 0%;
 }
 
 .button {
