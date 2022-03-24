@@ -44,12 +44,10 @@ export default class Home extends Vue {}
 #left,
 #right {
   background: linear-gradient(
-    45deg,
-    #f09433 0%,
-    #e6683c 25%,
-    #dc2743 50%,
-    #cc2366 75%,
-    #bc1888 100%
+    90deg,
+    #020024 0%,
+    #090979 35%,
+    #00d4ff 100%
   );
   position: fixed;
 }
