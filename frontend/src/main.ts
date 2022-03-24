@@ -28,6 +28,7 @@ library.add(
   faExclamationCircle as any,
   faArrowLeft as any
 );
+
 Vue.use(VueSimpleAlert);
 Vue.use(VueRecord);
 Vue.component("vue-fontawesome", FontAwesomeIcon);
@@ -35,6 +36,7 @@ Vue.use(Buefy, {
   defaultIconComponent: "vue-fontawesome",
   defaultIconPack: "fas",
 });
+
 Vue.component("EasyCamera", EasyCamera);
 Vue.config.productionTip = false;
 new Vue({
